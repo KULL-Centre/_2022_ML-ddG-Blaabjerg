@@ -1,7 +1,7 @@
 # Rapid protein stability prediction using deep learning representations
 
 ## Introduction
-Scripts and data to repeat the analyses in Blaabjerg et al.:
+This repository contains scripts and data to repeat the analyses in Blaabjerg et al.:
 [*"Rapid protein stability prediction using deep learning representations"*](https://www.biorxiv.org/content/10.1101/2022.07.14.500157v1).
 
 ## Code
