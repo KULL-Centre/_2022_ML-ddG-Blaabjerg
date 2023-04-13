@@ -34,7 +34,7 @@ Tested on Linux using Miniconda.
 Execute the pipeline using `src/run_pipeline.py`.
 
 ## RaSPLab
-The RaSP model can be used in [Colab](https://colab.research.google.com/) using this [link](https://colab.research.google.com/github/KULL-Centre/blob/main/_2022_ML-ddG-Blaabjerg/RaSPLab.ipynb).
+The RaSP model can be used in [Colab](https://colab.research.google.com/) using this [link](https://colab.research.google.com/github/KULL-Centre/_2022_ML-ddG-Blaabjerg/blob/main/RaSPLab.ipynb).
 
 ## Acknowledgements
 Parts of the code - specifically related to the 3D CNN model - was developed by Maher Kassem and Wouter Boomsma. We thank them for their contributions.
