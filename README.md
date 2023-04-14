@@ -36,17 +36,10 @@ Execute the pipeline using `src/run_pipeline.py`.
 ## RaSPLab
 The RaSP model can be used in [Colab](https://colab.research.google.com/) using this [link](https://colab.research.google.com/github/KULL-Centre/_2022_ML-ddG-Blaabjerg/blob/main/RaSPLab.ipynb).
 
-### Extra
-#### License:
-
-Source code and model weights are licensed under the Apache Licence, Version 2.0.
-
-#### Bugs:
-
+## Bugs:
 Please report any bugs or other issues using this repository [Github](https://github.com/KULL-Centre/_2022_ML-ddG-Blaabjerg) or contact one of the listed authors in the connected [manuscript](https://www.biorxiv.org/content/10.1101/2022.07.14.500157v1).
 
-#### Citing this work:
-
+## Citation
 *Lasse M. Blaabjerg, Maher M. Kassem, Lydia L. Good, Nicolas Jonsson, Matteo Cagiada, Kristoffer E. Johansson, Wouter Boomsma, Amelie Stein, Kresten Lindorff-Larsen (2022). Rapid protein stability prediction using deep learning representations. bioRxiv, 2022.07.*
 
 ```
@@ -60,6 +53,9 @@ Please report any bugs or other issues using this repository [Github](https://gi
 	journal = {bioRxiv}
 }
 ```
+
+## License
+Source code and model weights are licensed under the Apache Licence, Version 2.0.
 
 ## Acknowledgements
 Parts of the code - specifically related to the 3D CNN model - was developed by Maher Kassem and Wouter Boomsma. We thank them for their contributions.
