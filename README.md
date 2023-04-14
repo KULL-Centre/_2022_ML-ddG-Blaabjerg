@@ -36,7 +36,7 @@ Execute the pipeline using `src/run_pipeline.py`.
 ## RaSPLab
 The RaSP model can be used in [Colab](https://colab.research.google.com/) using this [link](https://colab.research.google.com/github/KULL-Centre/_2022_ML-ddG-Blaabjerg/blob/main/RaSPLab.ipynb).
 
-## Bugs:
+## Bugs
 Please report any bugs or other issues using this repository [Github](https://github.com/KULL-Centre/_2022_ML-ddG-Blaabjerg) or contact one of the listed authors in the connected [manuscript](https://www.biorxiv.org/content/10.1101/2022.07.14.500157v1).
 
 ## Citation
