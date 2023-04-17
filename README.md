@@ -37,7 +37,7 @@ Execute the pipeline using `src/run_pipeline.py`.
 The RaSP model can be used in [Colab](https://colab.research.google.com/) using this [link](https://colab.research.google.com/github/KULL-Centre/_2022_ML-ddG-Blaabjerg/blob/main/RaSPLab.ipynb).
 
 ## Data 
-Note that in a few cases, the residue numbering in the experimental test data has been shifted to align with the residue numbering found in the structural data.
+Note that in a few cases, the residue numbering in the experimental test data has been shifted to align with the structural data.
 
 ## Bugs
 Please report any bugs or other issues using this repository [Github](https://github.com/KULL-Centre/_2022_ML-ddG-Blaabjerg) or contact one of the listed authors in the connected [manuscript](https://www.biorxiv.org/content/10.1101/2022.07.14.500157v1).
