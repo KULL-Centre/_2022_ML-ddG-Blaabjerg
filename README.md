@@ -54,6 +54,7 @@ Note that in a few cases, the residue numbering for proteins in the experimental
 Please report any bugs or other issues using this [repository](https://github.com/KULL-Centre/_2022_ML-ddG-Blaabjerg) or contact one of the listed authors in the connected [manuscript](https://www.biorxiv.org/content/10.1101/2022.07.14.500157v1).
 
 ## Citation
+Please cite:
 *Lasse M. Blaabjerg, Maher M. Kassem, Lydia L. Good, Nicolas Jonsson, Matteo Cagiada, Kristoffer E. Johansson, Wouter Boomsma, Amelie Stein, Kresten Lindorff-Larsen (2022). Rapid protein stability prediction using deep learning representations. bioRxiv, 2022.07.*
 
 ```
