@@ -42,13 +42,13 @@ The RaSP model can be used in [Colab](https://colab.research.google.com/) using 
 Note that in a few cases, the residue numbering for proteins in the experimental test data has been shifted to align with the residue numbering found in the structural data.
 
 ## Data availability
-All data related to the RaSP ddG predictions (alphafold UP000005640_9606_HUMAN_v2) for the human proteome are available at https://sid.erda.dk/sharelink/hIM6F3ai5Z. Overview of available directories and zip files:<br>
+All data related to the RaSP ddG predictions for the human proteome (alphafold UP000005640_9606_HUMAN_v2) is available at https://sid.erda.dk/sharelink/hIM6F3ai5Z. Overview of available directories and zip files:<br>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2` - directory with all 23,391 RaSP ddG predictions.<br/>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2.zip` - zip file containing the directory with all 23,391 RaSP ddG prediction files.<br/>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_gnomad_clinvar.csv` - RaSP ddG preds for the human proteome mapped to gnomAD and ClinVar.<br/>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_prism_dir` - directory with RaSP ddG predictions sorted into subdirectories in the PRISM default tree folder structure based on UniProt ID. Example: RaSP prediction file for UniProt ID P12345 will be in P1/23/45/.<br/>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_prism_dir.zip` - zip file containing the directory with RaSP ddG predictions sorted into PRISM subdirectories.<br/>
-* `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.hdf5.zip` - zip file containing a vaex dataframe with all dataframes concatenated.<br/>
+* `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.hdf5.zip` - zip file containing a Vaex data file with all dataframes concatenated.<br/>
 
 ## Bugs
 Please report any bugs or other issues using this [repository](https://github.com/KULL-Centre/_2022_ML-ddG-Blaabjerg) or contact one of the listed authors in the connected [manuscript](https://www.biorxiv.org/content/10.1101/2022.07.14.500157v1).
