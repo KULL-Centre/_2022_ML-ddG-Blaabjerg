@@ -44,7 +44,7 @@ All data related to the RaSP ddG predictions for the human proteome (alphafold U
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2.zip` - Zipped version of the directory above useful for local download.<br/>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_prism_dir` - Directory containing RaSP ddG predictions sorted into subdirectories using the PRISM default tree folder structure based on UniProt ID. Example: RaSP prediction file for UniProt ID P12345 will be located in P1/23/45/. Access to individual protein files is available by clicking through the browser interface.<br/>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_prism_dir.zip` -  Zipped version of the directory above useful for local download.<br/>
-* `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.hdf5.zip` - Vaex data file containing all 23,391 human RaSP ddG predictions. The Vaex format enables easy access of data using a single file.<br/>
+* `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.hdf5.zip` - Vaex data file containing all 23,391 human RaSP ddG predictions. The Vaex format enables easy access of data using a single file. Vaex documentation is available [here](https://vaex.readthedocs.io/en/latest/index.html).<br/>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_gnomad_clinvar.csv` - Selected RaSP ddG predictions mapped to relevant gnomAD and ClinVar annotations.<br/>
 
 ## Data notes
