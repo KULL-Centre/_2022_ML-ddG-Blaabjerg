@@ -47,7 +47,7 @@ All data related to the RaSP ddG predictions for the human proteome (alphafold U
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_prism_dir.zip` - zip file containing the directory with RaSP ddG predictions sorted into PRISM subdirectories.<br/>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.hdf5.zip` - zip file containing a Vaex data file with all dataframes concatenated.<br/>
 
-## Data - Notes
+## Data notes
 Note that in a few cases, the residue numbering for proteins in the experimental test data has been shifted to align with the residue numbering found in the structural data.
 
 ## Bugs
