@@ -815,7 +815,7 @@ def bootstrap_gnomad_clinvar():
 
     # Load
     df = pd.read_csv(
-        f"{os.path.dirname(sys.path[0])}/data/test/GnomAD_ClinVar/df_rasp_gnomad_clinvar.csv"
+        f"{os.path.dirname(sys.path[0])}/data/test/Human/rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_gnomad_clinvar.csv"
     )
 
     # gnomAD
