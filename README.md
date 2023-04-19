@@ -28,9 +28,9 @@ Tested on Linux using Miniconda.
 `cd reduce/`<br/>
 `make`; `make install` # This might give an error but provides the reduce executable in this directory.
 
-4. Download the data file `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_gnomad_clinvar.csv` from https://sid.erda.dk/ sharelink/hIM6F3ai5Z and add it to the directory `data/test/Human/`.
+4. Download the data file `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_gnomad_clinvar.csv` from https://sid.erda.dk/sharelink/hIM6F3ai5Z and add it to the directory `data/test/Human/`.
 
-5. Download the Vaex data file `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.hdf5.zip` from https://sid.erda.dk/ sharelink/hIM6F3ai5Z and add it to the directory `data/test/Human/`. Unpack the file using the command: `gunzip rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.hdf5.zip`.
+5. Download the Vaex data file `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.hdf5.zip` from https://sid.erda.dk/sharelink/hIM6F3ai5Z and add it to the directory `data/test/Human/`. Unpack the file using the command: `gunzip rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.hdf5.zip`.
 
 ## Execution
 Execute the pipeline using `src/run_pipeline.py`.
@@ -42,7 +42,7 @@ The RaSP model can be used in [Colab](https://colab.research.google.com/) using 
 Note that in a few cases, the residue numbering for proteins in the experimental test data has been shifted to align with the residue numbering found in the structural data.
 
 ## Data availability
-All data related to the RaSP ddG predictions (alphafold UP000005640_9606_HUMAN_v2) for the human proteome are available at https://sid.erda.dk/ sharelink/hIM6F3ai5Z. Overview of available directories and zip files:<br>
+All data related to the RaSP ddG predictions (alphafold UP000005640_9606_HUMAN_v2) for the human proteome are available at https://sid.erda.dk/sharelink/hIM6F3ai5Z. Overview of available directories and zip files:<br>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2` - directory with all 23,391 RaSP ddG predictions.<br/>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2.zip` - zip file containing the directory with all 23,391 RaSP ddG prediction files.<br/>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_gnomad_clinvar.csv` - RaSP ddG preds for the human proteome mapped to gnomAD and ClinVar.<br/>
