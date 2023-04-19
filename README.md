@@ -31,7 +31,7 @@ Tested on Linux using Miniconda.
 4. Download the data file `df_rasp_gnomad_clinvar.csv` (latest version) from https://zenodo.org/record/6835878#.YtCFlC8RpQJ and add it to the directory `data/test/GnomAD_ClinVar/`.
 
 ## Execution
-Execute the pipeline using command `python src/run_pipeline.py`.
+Execute the pipeline using the command: `python src/run_pipeline.py`.
 
 ## RaSPLab
 The RaSP model can be used in [Colab](https://colab.research.google.com/) using this [link](https://colab.research.google.com/github/KULL-Centre/_2022_ML-ddG-Blaabjerg/blob/main/RaSPLab.ipynb).
