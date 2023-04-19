@@ -55,6 +55,7 @@ Please report any bugs or other issues using this [repository](https://github.co
 
 ## Citation
 Please cite:
+
 *Lasse M. Blaabjerg, Maher M. Kassem, Lydia L. Good, Nicolas Jonsson, Matteo Cagiada, Kristoffer E. Johansson, Wouter Boomsma, Amelie Stein, Kresten Lindorff-Larsen (2022). Rapid protein stability prediction using deep learning representations. bioRxiv, 2022.07.*
 
 ```
