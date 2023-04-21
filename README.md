@@ -28,9 +28,9 @@ Tested on Linux using Miniconda.
 `cd reduce/`<br/>
 `make`; `make install` # This might give an error but provides the reduce executable in this directory.
 
-4. Download the data file `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_gnomad_clinvar.csv` from https://sid.erda.dk/sharelink/hIM6F3ai5Z and add it to the directory `data/test/Human/`.
+4. Download the data file `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_gnomad_clinvar.csv` from https://sid.erda.dk/sharelink/fFPJWflLeE and add it to the directory `data/test/Human/`.
 
-5. Download the Vaex data file `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.hdf5.zip` from https://sid.erda.dk/sharelink/hIM6F3ai5Z and add it to the directory `data/test/Human/`. Unpack the file using the command: `gunzip rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.hdf5.zip`.
+5. Download the Vaex data file `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.hdf5.zip` from https://sid.erda.dk/sharelink/fFPJWflLeE and add it to the directory `data/test/Human/`. Unpack the file using the command: `gunzip rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.hdf5.zip`.
 
 ## Execution
 Execute the pipeline using `src/run_pipeline.py`.
@@ -39,7 +39,7 @@ Execute the pipeline using `src/run_pipeline.py`.
 The RaSP model can be used in [Colab](https://colab.research.google.com/) using this [link](https://colab.research.google.com/github/KULL-Centre/_2022_ML-ddG-Blaabjerg/blob/main/RaSPLab.ipynb).
 
 ## Data availability
-All data related to the RaSP ddG predictions for the human proteome (alphafold UP000005640_9606_HUMAN_v2) is available at https://sid.erda.dk/sharelink/hIM6F3ai5Z. Overview of available data files:<br>
+All data related to the RaSP ddG predictions for the human proteome (alphafold UP000005640_9606_HUMAN_v2) is available at https://sid.erda.dk/sharelink/fFPJWflLeE. Overview of available data files:<br>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2` - Single directory containing all 23,391 human RaSP ddG predictions. Access to individual protein files is available by clicking through the browser interface.<br/>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2.zip` - Zipped version of the directory above useful for local download.<br/>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_prism_dir` - Directory containing RaSP ddG predictions sorted into subdirectories using the PRISM default tree folder structure based on UniProt ID. Example: RaSP prediction file for UniProt ID P12345 will be located in P1/23/45/. Access to individual protein files is available by clicking through the browser interface.<br/>
