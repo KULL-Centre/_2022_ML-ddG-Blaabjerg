@@ -13,14 +13,14 @@ Overview of files:<br>
 * `src/pdb_parser_scripts/` - Scripts for parsing PDBs.<br/>
 
 ## Installation
-Tested on Linux using Miniconda.
+Tested on Linux using Miniconda with package versions specified below.
 
 1. Clone this repository.
 
 2. Install and activate conda environment with requirements:<br> 
 `conda create --name rasp-model python=3.6`<br>
 `conda activate rasp-model`<br>
-`conda install pyyaml pandas scipy numpy=1.17.3 scikit-learn mpl-scatter-density pdbfixer=1.5 pytorch=1.2.0 cudatoolkit=10.0 biopython=1.72 openmm=7.3.1 matplotlib=3.1.1 seaborn=0.11.2 ptitprince=0.2.5 dssp=3.0.0 vaex=4.5.0 -c salilab -c omnia -c conda-forge -c anaconda -c defaults`
+`conda install pyyaml=5.3.1 pandas=1.1.4 scipy=1.5.3 numpy=1.17.3 scikit-learn=0.24.0 mpl-scatter-density=0.7 pdbfixer=1.5 pytorch=1.2.0 cudatoolkit=10.0 biopython=1.72 openmm=7.3.1 matplotlib=3.1.1 seaborn=0.11.2 ptitprince=0.2.5 dssp=3.0.0 vaex=4.5.0 -c salilab -c omnia -c conda-forge -c anaconda -c defaults`
 
 3. Install reduce in the right directory. This program is used by the parser to add missing hydrogens to the proteins.<br/>
 `cd src/pdb_parser_scripts`<br/>
