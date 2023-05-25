@@ -28,9 +28,9 @@ Tested on Linux using Miniconda with package versions specified below.
 `cd reduce/`<br/>
 `make`; `make install` # This might give an error but provides the reduce executable in this directory.
 
-4. Download the data file `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_gnomad_clinvar.csv` from https://sid.erda.dk/sharelink/fFPJWflLeE and add it to the directory `data/test/Human/`.
+4. Download the data file `rasp_preds_exp_strucs_gnomad_clinvar.csv` from https://sid.erda.dk/sharelink/fFPJWflLeE and add it to the directory `data/test/Human/`.
 
-5. Download the Vaex data file `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.hdf5.zip` from https://sid.erda.dk/sharelink/fFPJWflLeE and add it to the directory `data/test/Human/`. Unpack the file using the command: `gunzip rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.hdf5.zip`.
+5. Download the Vaex data file `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.zip` from https://sid.erda.dk/sharelink/fFPJWflLeE and add it to the directory `data/test/Human/`. Unpack the file using the command: `gunzip rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.zip`.
 
 ## Execution
 Execute the pipeline using `src/run_pipeline.py`.
@@ -44,8 +44,8 @@ All data related to the RaSP ddG predictions for the human proteome (alphafold U
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2.zip` - Zipped version of the directory above useful for local download.<br/>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_prism_dir` - Directory containing RaSP ddG predictions sorted into subdirectories using the PRISM default tree folder structure based on UniProt ID. Example: RaSP prediction file for UniProt ID P12345 will be located in P1/23/45/. Access to individual protein files is available by clicking through the browser interface.<br/>
 * `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_prism_dir.zip` -  Zipped version of the directory above useful for local download.<br/>
-* `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.hdf5.zip` - Vaex data file containing all 23,391 human RaSP ddG predictions. The Vaex format enables easy access of data using a single file. Vaex documentation is available [here](https://vaex.readthedocs.io/en/latest/index.html).<br/>
-* `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_gnomad_clinvar.csv` - Selected RaSP ddG predictions mapped to relevant gnomAD and ClinVar annotations.<br/>
+* `rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_vaex_dataframe.zip` - Vaex data file containing all 23,391 human RaSP ddG predictions. The Vaex format enables easy access of data using a single file. Vaex documentation is available [here](https://vaex.readthedocs.io/en/latest/index.html).<br/>
+* `rasp_preds_exp_strucs_gnomad_clinvar.csv` - Selected RaSP ddG predictions mapped to relevant gnomAD and ClinVar annotations.<br/>
 
 ## Data notes
 Note that in a few cases, the residue numbering for proteins in the experimental test data has been shifted to align with the residue numbering found in the structural data.
