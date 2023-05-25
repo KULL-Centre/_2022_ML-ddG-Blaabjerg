@@ -806,7 +806,7 @@ def intvl_95(np_array):
 def plot_gnomad_clinvar(xlim=[-1, 7]):
     # Load data
     df = pd.read_csv(
-        f"{os.path.dirname(sys.path[0])}/data/test/Human/rasp_preds_alphafold_UP000005640_9606_HUMAN_v2_gnomad_clinvar.csv"
+        f"{os.path.dirname(sys.path[0])}/data/test/Human/rasp_preds_exp_strucs_gnomad_clinvar.csv"
     )
     df["gnomAD_category"] = df.apply(lambda x: gnomAD_category(x["gnomad;AF"]), axis=1)
     df["category_back"] = df.apply(lambda x: category_back(x["RaSP;score_ml"]), axis=1)
