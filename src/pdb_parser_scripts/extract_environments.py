@@ -5,7 +5,7 @@ import time
 
 import Bio
 import Bio.PDB
-import Bio.PDB.Vector
+# import Bio.PDB.Vector
 import numpy as np
 import simtk
 import simtk.openmm
