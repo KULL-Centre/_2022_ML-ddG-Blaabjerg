@@ -374,9 +374,9 @@ class CavityModel(torch.nn.Module):
                 print(atom_type_j_data)
                 ranges_i = torch.cat(
                     [
-                        torch.tensor([0]),
+                        torch.tensor([0]).to(x.device),
                         torch.arange(atom_type_j_data.shape[0] - 1)[change_mask_j] + 1,
-                        torch.tensor([atom_type_j_data.shape[0]]),
+                        torch.tensor([atom_type_j_data.shape[0]]).to(x.device),
                     ]
                 )
 
