@@ -369,8 +369,9 @@ class CavityModel(torch.nn.Module):
                 )
 
                 # Add begin and end indices
-                print(change_mask_j.is_cuda())
-                print(change_mask_j.get_device())
+                print(change_mask_j)
+                print(atom_type_j_data.shape)
+                print(atom_type_j_data)
                 ranges_i = torch.cat(
                     [
                         torch.tensor([0]),
