@@ -366,13 +366,14 @@ class CavityModel(torch.nn.Module):
                 # on the change from one value to another.
                 change_mask_j = (
                     atom_type_j_data[:, 0][:-1] != atom_type_j_data[:, 0][1:]
-                ).to(x.device)
+                )
 
                 # Add begin and end indices
+                print(change_mask_j.is_cuda())
+                print(change_mask_j.get_device())
                 ranges_i = torch.cat(
                     [
                         torch.tensor([0]),
-                        print("hello!")
                         torch.arange(atom_type_j_data.shape[0] - 1)[change_mask_j] + 1,
                         torch.tensor([atom_type_j_data.shape[0]]),
                     ]
