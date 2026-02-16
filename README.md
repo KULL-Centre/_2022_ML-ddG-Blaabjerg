@@ -36,7 +36,9 @@ Tested on Linux using Miniconda with package versions specified below.
 Execute the pipeline using `src/run_pipeline.py`.
 
 ## RaSPLab
-The RaSP model can be used in [Colab](https://colab.research.google.com/) using this [link](https://colab.research.google.com/github/KULL-Centre/_2022_ML-ddG-Blaabjerg/blob/main/RaSPLab.ipynb).
+~~The RaSP model can be used in Colab~~ using this [link](https://colab.research.google.com/github/KULL-Centre/_2022_ML-ddG-Blaabjerg/blob/main/RaSPLab.ipynb).
+
+**NOTE: Colab no longer supports the dependencies of RaSP and there is currently no solution in the pipeline. Please make a local install to use RaSP.**
 
 ## Data availability
 All data related to the RaSP ddG predictions for the human proteome (alphafold UP000005640_9606_HUMAN_v2) is available at https://sid.erda.dk/sharelink/fFPJWflLeE. Overview of available data files:<br>
